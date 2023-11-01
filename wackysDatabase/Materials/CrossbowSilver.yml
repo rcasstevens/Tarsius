@@ -1,0 +1,5 @@
+name: SilverCrossbow
+original: arbalest_mat
+changes:
+  colors:
+    _Color: [0.9, 0.9, 0.9, 1]

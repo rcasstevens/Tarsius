@@ -1,0 +1,12 @@
+name: 'Eye of the Dwarf'
+clonePrefabName: Custom_Eitr_Powerup
+craftingStation: $piece_cauldron
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- MushroomYellow:1:0:True
+- GreydwarfEye:4:0:True

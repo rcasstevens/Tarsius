@@ -1,0 +1,11 @@
+name: BoltWood
+clonePrefabName: BoltWood
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 20
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Wood:8:1:True

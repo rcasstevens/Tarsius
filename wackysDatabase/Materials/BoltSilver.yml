@@ -1,0 +1,5 @@
+name: BoltSilver
+original: Bolts_mat
+changes:
+  colors:
+    _Color: [0.75, 0.75, 0.75, 1]

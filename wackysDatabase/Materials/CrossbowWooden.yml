@@ -1,0 +1,5 @@
+name: WoodenCrossbow
+original: arbalest_mat
+changes:
+  colors:
+    _Color: [0.6, 0.5, 1, 1]

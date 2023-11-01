@@ -1,0 +1,12 @@
+name: WispTorch
+clonePrefabName: WispTorch
+craftingStation: Custom_Sky_Forge
+minStationLevel: 4
+maxStationLevelCap: 4
+repairStation:
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Torch:1:1:True
+- Wisp:2:2:True

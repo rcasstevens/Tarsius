@@ -1,0 +1,5 @@
+name: BlackMetalCrossbow
+original: arbalest_mat
+changes:
+  colors:
+    _Color: [0, 0.25, 0, 1]

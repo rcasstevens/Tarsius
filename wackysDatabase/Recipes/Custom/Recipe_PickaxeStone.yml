@@ -1,0 +1,12 @@
+name: PickaxeStoneZ
+clonePrefabName: PickaxeStoneZ
+craftingStation:
+minStationLevel:
+maxStationLevelCap:
+repairStation:
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Wood:10:4:True
+- Stone:5:2:True

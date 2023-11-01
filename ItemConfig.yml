@@ -1,0 +1,337 @@
+groups:
+  Jewelcrafting Chests:
+  - JC_Blue_Chest
+  - JC_Blue_Item_Chest
+  Jewelcrafting Raw Gems:
+  - Uncut_Black_Stone
+  - Uncut_Blue_Stone
+  - Uncut_Red_Stone
+  - Uncut_Yellow_Stone
+  - Uncut_Green_Stone
+  - Uncut_Purple_Stone
+  - Uncut_Orange_Stone
+  - Uncut_Cyan_Stone
+  Jewelcrafting Cut Gems:
+  - Simple_Black_Socket
+  - Simple_Blue_Socket
+  - Simple_Red_Socket
+  - Simple_Yellow_Socket
+  - Simple_Green_Socket
+  - Simple_Purple_Socket
+  - Simple_Orange_Socket
+  - Simple_Cyan_Socket
+  - Advanced_Black_Socket
+  - Advanced_Blue_Socket
+  - Advanced_Red_Socket
+  - Advanced_Yellow_Socket
+  - Advanced_Green_Socket
+  - Advanced_Purple_Socket
+  - Advanced_Orange_Socket
+  - Advanced_Cyan_Socket
+  - Perfect_Black_Socket
+  - Perfect_Blue_Socket
+  - Perfect_Red_Socket
+  - Perfect_Yellow_Socket
+  - Perfect_Green_Socket
+  - Perfect_Purple_Socket
+  - Perfect_Orange_Socket
+  - Perfect_Cyan_Socket
+  Jewelcrafting Broken Gems:
+  - Shattered_Black_Crystal
+  - Shattered_Blue_Crystal
+  - Shattered_Red_Crystal
+  - Shattered_Yellow_Crystal
+  - Shattered_Green_Crystal
+  - Shattered_Purple_Crystal
+  - Shattered_Orange_Crystal
+  - Shattered_Cyan_Crystal
+  Non Meats:
+  - CloudBerry
+  - RaspBerry
+  - BlueBerries
+  - Honey
+  - Mushroom
+  - MushroomYellow
+  - MushroomJotunPuffs
+  - MushroomMagecap
+  - Carrot
+  - Turnip
+  - Onion
+  - Thistle
+  - Dandelion
+  Fishies:
+  - Fish1
+  - Fish10
+  - Fish11
+  - Fish12
+  - Fish2
+  - Fish3
+  - Fish4_cave
+  - Fish5
+  - Fish6
+  - Fish7
+  - Fish8
+  - Fish9
+  Raw Meats:
+  - RawMeat
+  - SerpentMeat
+  - DeerMeat
+  - NeckTail
+  - LoxMeat
+  - WolfMeat
+  - FishRaw
+  - HareMeat
+  - ChickenMeat
+  - BugMeat
+  Building Materials:
+  - Stone
+  - Coal
+  - BlackMarble
+  - Crystal
+  - YggdrasilWood
+  Misc Twenty:
+  - SurtlingCore
+  - YmirRemains
+  - Thunderstone
+  Misc Fifty:
+  - AncientSeed
+  - WitheredBone
+  - GoblinTotem
+  - Flint
+  - BarleyFlour
+  - SoftTissue
+  - ChickenEgg
+  - WolfClaw
+  Misc Hundred:
+  - GreydwarfEye
+  - BoneFragments
+  - Entrails
+  - LeatherScraps
+  - DeerHide
+  - TrollHide
+  - WolfPelt
+  - LoxPelt
+  - ScaleHide
+  - Feathers
+  - Wisp
+  - Carapace
+  - Tar
+  - JuteRed
+  - JuteBlue
+  Misc Extra:
+  - Resin
+  - Pukeberries
+  - WitheredBone
+  - AncientSeed
+  - GoblinTotem
+  More Quarter:
+  - Coal
+  - Honey
+  - Chitin
+  - CloudBerry
+  - Entrails
+  - BoneFragments
+  - Resin
+  - GreydwarfEye
+  - Barley
+  - Flax
+  - SerpentScale
+  - Wisp
+  More Third:
+  - BlackMetalScrap
+  - Flint
+  - RaspBerry
+  - BlueBerries
+  - YggdrasilWood
+  - Mushroom
+  - MushroomYellow
+  - MushroomBlue
+  - Thistle
+  - Dandelion
+  - RawMeat
+  - DeerMeat
+  - NeckTail
+  - LoxMeat
+  - WolfMeat
+  - SerpentMeat
+  - HareMeat
+  - BugMeat
+  - ChickenMeat
+  - Ooze
+  - Guck
+  - Needle
+  - JuteBlue
+  - JuteRed
+  - WolfHairBundle
+  - WolfFang
+  - WolfClaw
+  - Sap
+  - CopperOre
+  - SilverOre
+  More Half:
+  - Stone
+  - Wood
+  - BlackMarble
+  - Obsidian
+  - ElderBark
+  - CopperScrap
+  - TinOre
+  - IronOre
+  - IronScrap
+  - FineWood
+  - RoundLog
+  - Tar
+  - Crystal
+  - Feathers
+  - Bilebag
+  - Bloodbag
+  - Carapace
+  - Mandible
+  - Chain
+  - FreezeGland
+  - GiantBloodSack
+  - GoblinTotem
+  - LeatherScraps
+  - RoyalJelly
+  - Ruby
+  - Amber
+  - AmberPearl
+  - SoftTissue
+  - DeerHide
+  - TrollHide
+  - WolfPelt
+  - LoxPelt
+  - ScaleHide
+  - Root
+  More Extreme:
+  - Acorn
+  - BirchSeeds
+  - FirCone
+  - PineCone
+  Keys:
+  - CryptKey
+  - Wishbone
+  - DvergrKey
+  - DvergrKeyFragment
+  - Wisplight
+
+#Lets everything float on the water's surface.
+all:
+  floating: yes
+
+#Coins.
+coins:
+  stack: 5000
+  weight factor: 0.33
+
+#Special category `seeds`
+seed:
+  stack: 250
+
+#Special category `valuable`
+valuable:
+  stack: 100
+
+#Special category `trophy`
+trophy:
+  stack: 50
+  weight factor: 0.33
+
+#Special category `boss trophy`
+boss trophy:
+  stack: 50
+  weight factor: 0.33
+
+#Special category `woods`
+woods:
+  stack: 100
+  weight factor: 0.80
+
+#Prevents weird behavior with `wood` doubling it's stack-size.
+wood:
+  stack: 100
+
+#Defined categories
+Building Materials:
+  stack: 100
+  weight factor: 0.75
+
+Ironpit:
+  teleportable: yes
+
+Fishies:
+  stack: 20
+
+Keys:
+  stack: 20
+
+Misc Twenty:
+  stack: 20
+
+Misc Fifty:
+  stack: 50
+
+Misc Hundred:
+  stack: 100
+
+Misc Extra:
+  stack: 200
+
+Raw Meats:
+  stack: 50
+
+Non Meats:
+  stack: 100
+
+More Quarter:
+  amount: 1.25
+
+More Third:
+  amount: 1.33
+
+More Half:
+  amount: 1.5
+
+More Extreme:
+  amount: 2.1
+
+#Jewelcrafting
+Jewelcrafting Chests:
+  stack: 30
+
+Jewelcrafting Raw Gems:
+  stack: 50
+  amount: 1.1
+
+Jewelcrafting Cut Gems:
+  stack: 30
+
+Jewelcrafting Broken Gems:
+  stack: 100
+
+# Example ItemConfig.yml
+# Do not forget to turn the YAML file on in the settings.
+
+# Predefined groups:
+# all, ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
+# pants, chest, helmet, cape, armor.
+# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, crossbows, weapon, arrows, bolts, ammo.
+# round shield, tower shield, shield.
+# special (fishing rod and megingjord), tool, equipment.
+
+# Things you can change: amount, weight, weight factor, stack, stack factor, pickup, floating, teleportable, loss.
+# Things you can configure per world level: amount, pickup, teleportable, loss.
+
+# Note: If you are using mods that create custom items / prefabs, you might need to add and configure them
+#       explicitly by creating your own groups for those. Predefined groups only contain Valheim's original
+#       items.
+
+# Define your own groups here and assign items via display name (or the internal ID) to your groups.
+# Hint: If you want to find the internal ID of an item, you can look it up in the wiki.
+# https://valheim.fandom.com
+# For custom items, please refer to the documentation of the mod that adds them.
+#
+# groups:
+#   My Group:
+#      - Display Name
+#      - InternalID

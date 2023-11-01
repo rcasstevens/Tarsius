@@ -1,0 +1,5 @@
+name: BronzeCrossbow
+original: arbalest_mat
+changes:
+  colors:
+    _Color: [0.8, 0.6, 0.2, 1]

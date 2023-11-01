@@ -1,0 +1,5 @@
+name: BoltPoison
+original: Bolts_mat
+changes:
+  colors:
+    _Color: [0.21, 0.5, 0.15, 1]

@@ -1,0 +1,5 @@
+name: BoltFlint
+original: Bolts_mat
+changes:
+  colors:
+    _Color: [0.85, 0.75, 0.65, 1]

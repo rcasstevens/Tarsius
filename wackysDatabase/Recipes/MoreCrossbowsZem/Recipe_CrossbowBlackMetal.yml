@@ -1,0 +1,14 @@
+name: CrossbowBlackMetal
+clonePrefabName: CrossbowBlackMetal
+craftingStation: $piece_forge
+minStationLevel: 1
+maxStationLevelCap: 4
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- FineWood:10:5:True
+- BlackMetal:16:8:True
+- Iron:8:4:True
+- LoxPelt:2:1:True

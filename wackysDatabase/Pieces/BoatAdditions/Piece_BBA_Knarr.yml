@@ -1,0 +1,54 @@
+name: BBA_Knarr
+piecehammer: Hammer
+m_name: $bba_knarr
+sizeMultiplier: 1
+m_description: ''
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $bba_boatyard
+piecehammerCategory: Transport
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: true
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: false
+wearNTearData:
+  health: 3000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Immune
+    m_pickaxe: Immune
+    m_fire: Weak
+    m_frost: Resistant
+    m_lightning: Resistant
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: false
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- BBA_LargeHull:1:1:True
+- BBA_Mast:1:1:True
+- Carapace:50:1:True
+- Resin:50:1:True
