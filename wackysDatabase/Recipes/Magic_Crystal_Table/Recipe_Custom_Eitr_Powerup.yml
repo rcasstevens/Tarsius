@@ -9,4 +9,4 @@ disabled: false
 requireOnlyOneIngredient: false
 reqs:
 - MushroomYellow:1:0:True
-- GreydwarfEye:4:0:True
+- GreydwarfEye:3:0:True
