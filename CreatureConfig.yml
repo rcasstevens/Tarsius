@@ -11,6 +11,12 @@ groups:
     - Surtling
   Frost Resistant:
     - Stone Golem
+  Poison Resistant:
+    - Draugr
+    - Draugr_Elite
+    - Blob
+    - BlobElite
+    - Bonemass
   Post Eikthyr:
     - Greydwarf
   Post Elder:
@@ -107,6 +113,8 @@ Post Queen:
 
 # Prevent early creatures from being too annoying.
 creature:
+  #Let there be more creatures!
+  amount: 1.12
   infusion:
     0:
       Lightning: 0
@@ -116,6 +124,13 @@ creature:
       Chaos: 0
       Spirit: 0
     1:
+      Lightning: 0
+      Fire: 0
+      Frost: 0
+      Poison: 0
+      Chaos: 0
+      Spirit: 0
+    2:
       Lightning: default
       Fire: default
       Frost: default
@@ -154,30 +169,50 @@ boss:
 # Prevent high health enemies from being too annoying
 High Health Mobs:
   health per star:
-    0: default
-    1: default
-    2: 0.4
-    3: 0.5
-    4: 0.6
+    0: 0.6
+    1: 0.55
+    2: 0.5
+    3: 0.45
+    4: 0.4
 
 # Give certain enemies an innate resistance
 Lightning Resistant:
   damage:
-    Lightning: 0.5
+    Lightning: 0.3
     Chop: 1.33
 Fire Resistant:
   damage:
-    Fire: 0.2
+    Fire: 0.3
 Frost Resistant:
   damage:
-    Frost: 0.5
+    Frost: 0.3
+Poison Resistant:
+  damage:
+    Poison: 0.3
 
+# Nerf wolfs
 Wolf:
   Day:
     stars: 0
   Mountain:
     Night:
-      stars: default
+      stars:
+        0: 0
+        1: [9, 1]
+        2: [9, 3]
+        3: [18, 6, 1]
+        4: [27, 9, 3, 1]
+  Tamed:
+    stars: default
+
+# Nerf loxes
+Lox:
+  stars:
+    0: 0
+    1: [9, 1]
+    2: [9, 3]
+    3: [18, 6]
+    4: [27, 9, 1]
 
 # Example yaml file. Feel free to customize this. Everything that is not defined in this file will use the configuration file instead.
 # Find some detailed documentation at the bottom of this file.
