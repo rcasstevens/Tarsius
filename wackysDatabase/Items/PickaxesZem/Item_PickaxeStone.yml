@@ -1,8 +1,8 @@
-name: PickaxeStoneZ
+name: PickaxeStone
 m_weight: 2
 m_name: $item_pickaxe_stone
-m_description: 'A crude pick designed for digging soil.'
-clonePrefabName: PickaxeStone
+m_description: 'A crude pick only useful for digging soil.'
+clonePrefabName:
 mockName: 
 customIcon: 
 material: 

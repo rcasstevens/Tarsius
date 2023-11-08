@@ -9,9 +9,9 @@ material:
 damagedMaterial: 
 craftingStation: $piece_workbench
 piecehammerCategory: Misc
-minStationLevel: 1
+minStationLevel: 2
 amount: 1
-disabled: true
+disabled: false
 adminonly: false
 comfort: 
 groundPiece: false

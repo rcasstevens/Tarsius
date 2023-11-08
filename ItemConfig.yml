@@ -301,13 +301,17 @@ Jewelcrafting Chests:
 
 Jewelcrafting Raw Gems:
   stack: 50
-  amount: 1.1
+  amount: 1.12
 
 Jewelcrafting Cut Gems:
   stack: 30
 
 Jewelcrafting Broken Gems:
   stack: 100
+  
+#Ironpit is craftable
+ironpit:
+  teleportable: yes
 
 # Example ItemConfig.yml
 # Do not forget to turn the YAML file on in the settings.

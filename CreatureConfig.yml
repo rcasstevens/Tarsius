@@ -169,23 +169,26 @@ boss:
 # Prevent high health enemies from being too annoying
 High Health Mobs:
   health per star:
-    0: 0.6
-    1: 0.55
-    2: 0.5
+    0: 0.3
+    1: 0.35
+    2: 0.4
     3: 0.45
-    4: 0.4
+    4: 0.3
 
 # Give certain enemies an innate resistance
 Lightning Resistant:
   damage:
     Lightning: 0.3
     Chop: 1.33
+
 Fire Resistant:
   damage:
     Fire: 0.3
+
 Frost Resistant:
   damage:
     Frost: 0.3
+
 Poison Resistant:
   damage:
     Poison: 0.3

@@ -1,5 +1,5 @@
-name: PickaxeStoneZ
-clonePrefabName: PickaxeStoneZ
+name: PickaxeStone
+clonePrefabName: PickaxeStone
 craftingStation:
 minStationLevel:
 maxStationLevelCap:
