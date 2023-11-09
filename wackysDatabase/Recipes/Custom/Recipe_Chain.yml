@@ -1,0 +1,11 @@
+name: Recipe_Chain
+clonePrefabName: Chain
+craftingStation: $piece_forge
+minStationLevel: 5
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Iron:3:1:True

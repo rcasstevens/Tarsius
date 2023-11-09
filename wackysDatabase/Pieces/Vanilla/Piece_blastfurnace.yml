@@ -1,0 +1,85 @@
+name: blastfurnace
+piecehammer: Hammer
+m_name: $piece_blastfurnace
+sizeMultiplier: 1
+m_description: ''
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_artisanstation
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 2000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData:
+  smelterName: blastfurnace
+  addOreTooltip: $piece_smelter_additem
+  emptyOreTooltip: $piece_smelter_empty
+  fuelItem:
+    name: Coal
+  maxOre: 30
+  maxFuel: 60
+  fuelPerProduct: 2
+  secPerProduct: 30
+  spawnStack: false
+  requiresRoof: false
+  addOreAnimationLength: 0
+  smelterConversion:
+  - FromName: CopperOre
+    ToName: Copper
+  - FromName: IronOre
+    ToName: Iron
+  - FromName: IronScrap
+    ToName: Iron
+  - FromName: BronzeScrap
+    ToName: Bronze
+  - FromName: TinOre
+    ToName: Tin
+  - FromName: SilverOre
+    ToName: Silver
+  - FromName: CopperScrap
+    ToName: Copper
+  - FromName: FlametalOre
+    ToName: Flametal
+  - FromName: BlackMetalScrap
+    ToName: BlackMetal
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Stone:20:1:True
+- SurtlingCore:5:1:True
+- Iron:10:1:True
+- FineWood:20:1:True

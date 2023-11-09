@@ -1,0 +1,25 @@
+name: bp_explorer
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- BronzeNails:5:0:True
+- DeerHide:10:0:True
+- LeatherScraps:10:0:True
+- Iron:0:5:True
+- ElderBark:0:10:True
+- Guck:0:2:True
+- Silver:0:5:True
+- WolfPelt:0:3:True
+- JuteRed:0:2:True
+- BlackMetal:0:5:True
+- LinenThread:0:10:True
+- LoxPelt:0:2:True
+- JuteBlue:0:5:True
+- ScaleHide:0:5:True
+- Carapace:0:5:True

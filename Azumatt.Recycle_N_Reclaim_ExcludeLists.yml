@@ -1,0 +1,96 @@
+# Below you can find example groups. Groups are used to exclude or includeOverride quickly. They are reusable lists! 
+# Please note that some of these groups & limitations are kinda pointless but are here for example.
+# Make sure to follow the format of the example below. If you have any questions, please ask in my discord.
+
+# Full vanilla prefab name list: https://valheim-modding.github.io/Jotunn/data/prefabs/prefab-list.html
+# Item prefab name list: https://valheim-modding.github.io/Jotunn/data/objects/item-list.html
+
+# There are several predefined groups set up for you that are not listed. You can use these just like you would any group you create yourself.
+# These are the "All", "Food", "Potion", "Fish", "Swords", "Bows", "Crossbows", "Axes", "Clubs", "Knives", "Pickaxes", "Polearms", "Spears", "Equipment", 
+#  "Boss Trophy", "Trophy", "Crops", "Seeds", "Ores", "Metals", "Woods", "Armor", "Helmets", "Ammunition", "Utilities", "Tools", "Miscellaneous", and "Customizations" groups.
+# The criteria for these groups are as follows:
+# groups:
+#   Food:
+#     - Criteria: Both of the following properties must have a value greater than 0.0 on the sharedData property of the ItemDrop script:
+#         - food
+#         - foodStamina
+#   Potion:
+#     - Criteria: The following properties must meet the specified conditions on the sharedData property of the ItemDrop script:
+#         - food > 0.0
+#         - foodStamina == 0.0
+#   Fish:
+#     - itemType: Fish
+#   Swords, Bows, Crossbows, Axes, Clubs, Knives, Pickaxes, Polearms, Spears:
+#     - itemType: OneHandedWeapon, TwoHandedWeapon, TwoHandedWeaponLeft, Bow
+#     - Criteria: Items in these groups have a specific skillType on the sharedData property of the ItemDrop script. Each group corresponds to the skillType as follows:
+#         - Swords: skillType == Skills.SkillType.Swords
+#         - Bows: skillType == Skills.SkillType.Bows
+#         - Crossbows: skillType == Skills.SkillType.Crossbows
+#         - Axes: skillType == Skills.SkillType.Axes
+#         - Clubs: skillType == Skills.SkillType.Clubs
+#         - Knives: skillType == Skills.SkillType.Knives
+#         - Pickaxes: skillType == Skills.SkillType.Pickaxes
+#         - Polearms: skillType == Skills.SkillType.Polearms
+#         - Spears: skillType == Skills.SkillType.Spears
+#            Example:   An item with itemType set to OneHandedWeapon and skillType set to Skills.SkillType.Swords would belong to the Swords group.
+#   Equipment:
+#     - itemType: Torch
+#   Boss Trophy:
+#     - itemType: Trophie
+#     - Criteria: sharedData.m_name ends with any of the following boss names:
+#         - eikthyr, elder, bonemass, dragonqueen, goblinking, SeekerQueen
+#   Trophy:
+#     - itemType: Trophy
+#     - Criteria: sharedData.m_name does not end with any boss names
+#   Crops:
+#     - itemType: Material
+#     - Criteria: Can be cultivated and grown into a pickable object with an amount greater than 1
+#   Seeds:
+#     - itemType: Material
+#     - Criteria: Can be cultivated and grown into a pickable object with an amount equal to 1
+#   Ores:
+#     - itemType: Material
+#     - Criteria: Can be processed by any of the following smelters:
+#         - smelter
+#         - blastfurnace
+#   Metals:
+#     - itemType: Material
+#     - Criteria: Is the result of processing an ore in any of the following smelters:
+#         - smelter
+#         - blastfurnace
+#   Woods:
+#     - itemType: Material
+#     - Criteria: Can be processed by the charcoal_kiln smelter
+#   Armor:
+#     - itemType: Chest, Shoulder, Legs, Hands
+#   Helmets:
+#     - itemType: Helmet
+#   Ammunition:
+#     - itemType: Ammo, AmmoNonEquipable
+#   Utilities:
+#     - itemType: Utility
+#   Tools:
+#     - itemType: Tool
+#   Miscellaneous:
+#     - itemType: Misc
+#   Customizations:
+#     - itemType: Customization
+#   All:
+#     - Criteria: Item has an ItemDrop script and all needed fields are populated. (all items)
+
+groups:
+  Backpacks:
+    - Satchel
+    - RuggedBackpack
+    - BloodbagWetpack
+    - ArcticSherpaPack
+    - LoxhideKnappsack
+    - ExplorersWisppack
+
+inventory:
+  exclude:
+    - Backpacks
+
+reclaiming:
+  exclude:
+    - Backpacks

@@ -1,0 +1,14 @@
+name: CrossbowIron
+clonePrefabName: CrossbowIron
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 4
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Wood:10:5:True
+- ElderBark:4:2:True
+- Iron:20:10:True
+- Root:1:0:True
