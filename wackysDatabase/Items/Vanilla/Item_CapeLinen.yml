@@ -53,7 +53,7 @@ m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 
 damageModifiers:
-- Water:VeryResistant
+- Water:Immune
 - Fire:Weak
 GEffects:
   Hit_Effects: 

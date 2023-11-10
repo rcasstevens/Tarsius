@@ -23,7 +23,7 @@ Moddifiers:
 SE_Equip: 
 SE_SET_Equip: 
   SetName: leatherattire
-  Size: 4
+  Size: 3
   EffectName: SetEffect_LeatherArmor
 ShieldStats:
   m_blockPower: 10

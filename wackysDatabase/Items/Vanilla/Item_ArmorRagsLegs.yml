@@ -1,7 +1,7 @@
-name: CapeDeerHide
-m_weight: 4
-m_name: $item_cape_deerhide
-m_description: $item_cape_deerhide_description
+name: ArmorRagsLegs
+m_weight: 2
+m_name: $item_legs_rags
+m_description: $item_legs_rags_description
 clonePrefabName: 
 mockName: 
 customIcon: 
@@ -18,10 +18,13 @@ Armor:
   armorPerLevel: 1
 FoodStats: 
 Moddifiers:
-  m_movementModifier: 0.03
+  m_movementModifier: 0
   m_EitrRegen: 0
 SE_Equip: 
-SE_SET_Equip:
+SE_SET_Equip: 
+  SetName: raggedattire
+  Size: 2
+  EffectName: SetEffect_RagArmor
 ShieldStats:
   m_blockPower: 10
   m_blockPowerPerLevel: 0
@@ -42,18 +45,17 @@ m_knockback: 10
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 400
+m_maxDurability: 200
 m_durabilityPerLevel: 50
 m_equipDuration: 2
 m_skillType: Swords
 m_animationState: OneHanded
-m_itemType: Shoulder
+m_itemType: Legs
 m_toolTier: 0
-m_maxQuality: 4
+m_maxQuality: 2
 m_value: 0
 ConsumableStatusEffect: 
-damageModifiers: 
-- Water:Resistant
+damageModifiers: []
 GEffects:
   Hit_Effects: 
   Hit_Terrain_Effects: 
